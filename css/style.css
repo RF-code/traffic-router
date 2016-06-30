@@ -1,0 +1,26 @@
+.buildingA{
+	float: left;
+	background-color: grey;
+	height: 400px;
+	width: 200px;
+}
+
+.street{
+	float: left;
+	height: 400px;
+	width: 25px;
+}
+
+.streetA{
+	background-color: black;
+	height: 100px;
+	width: 25px;
+}
+
+#building2{
+	float:left;
+}
+
+#button{
+	height:50px;
+}
