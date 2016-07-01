@@ -5,14 +5,32 @@
 		<title>Traffic Router</title>
 	</head>
 	<body>
-		<div id=building1 class=buildingA></div>
-			<div class=street>
+	<h1>Traffic Router</h1>
+	<h3>Push button to see traffic (that orange circle)</h3>
+	<h3 id="red">red = heavy traffic</h4>
+	<h3 id="yellow">yellow = moderate traffic</h4>
+	<h3 id="green"> green = light traffic</h4>
+		<div id=building1 class=buildingA>
+			<h1 id=buildText> Building</h1>
+		</div>
+			<div class=street1>
 				<div id=streetA1 class=streetA></div>
 				<div id=streetA2 class=streetA></div>
 				<div id=streetA3 class=streetA></div>
 				<div id=streetA4 class=streetA></div>
 			</div>
 		<div id=building2 class=buildingA></div>
+	<div class=street2>
+		<div id=streetB1 class=streetB></div>
+		<div id=streetB2 class=streetB></div>
+		<div id=streetB3 class=streetB></div>
+		<div id=streetB4 class=streetB></div>
+		<div id=streetB5 class=streetB></div>
+		<div id=streetB6 class=streetB></div>
+		<div id=streetB7 class=streetB></div>
+		<div id=streetB8 class=streetB></div>
+	</div>
+	<div id=park></div>
 		<input type="image" id="button" src=assets/button.png onclick="display()">
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>

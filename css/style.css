@@ -5,7 +5,7 @@
 	width: 200px;
 }
 
-.street{
+.street1{
 	float: left;
 	height: 400px;
 	width: 25px;
@@ -21,6 +21,56 @@
 	float:left;
 }
 
+#building1{
+	margin-left: 450px;
+}
+
 #button{
 	height:50px;
+	align-items: left;
+	position: absolute;
+	top: 350px;
+}
+}
+
+#red{
+	color: red;
+}
+
+#yellow{
+	color: #F0E105;
+}
+
+#green{
+	color: green;
+}
+
+.street2{
+	height:400px;
+	width:25px;
+	background-color: black;
+	transform:rotate(90deg);
+	float:left;
+	margin-top:210px;
+	margin-left:-37px;
+}
+
+.streetB{
+	background-color: black;
+	height: 100px;
+	width: 25px;
+}
+
+#buildText{
+	margin-left:30px;
+	margin-top:150px;
+}
+
+#park{
+	height:800px;
+	width:300px;
+	background-color: #05F019;
+	transform:rotate(90deg);
+	margin-left: 500px;
+	margin-top:192px;
 }
